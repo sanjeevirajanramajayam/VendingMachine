@@ -12,18 +12,18 @@ function App() {
   const [totalCost, setTotalCost] = useState(0);
   const [cartItems, setCartItems] = useState([]);
   const [VendingMachine, setVendingMachine] = useState([
-    { name: "Kurkure", price: 20, stock: 15, image: "src/assets/Kurkure_140x150.png" },
-    { name: "Lays", price: 30, stock: 5, image:"src/assets/Lays_150x122-removebg-preview_184x150.png"},
-    { name: "Munch", price: 10, stock: 20, image:"src/assets/munch_140x150.png" },
-    { name: "Pepsi", price: 40, stock: 10, image:"src/assets/pepsi_150x150.webp" },
-    { name: "Coke", price: 35, stock: 12, image:"src/assets/coke_100x150-removebg-preview.png" },
-    { name: "Sprite", price: 25, stock: 8, image:"src/assets/sprite_124x150-removebg-preview.png" },
-    { name: "Oreos", price: 50, stock: 12, image:"src/assets/oreos_150x102-removebg-preview_221x150.png" },
-    { name: "Doritos", price: 45, stock: 7, image:"src/assets/doritos_150x150-removebg-preview.png" },
-    { name: "Red Bull", price: 60, stock: 5, image:"src/assets/redbull_150x150-removebg-preview.png" },
-    { name: "Snickers", price: 25, stock: 20, image:"src/assets/snickers_107x150-removebg-preview.png" },
-    { name: "Gatorade", price: 35, stock: 10, image:"src/assets/gatorade_150x150-removebg-preview.png" },
-    { name: "KitKat", price: 30, stock: 15, image:"src/assets/kitkat_150x150-removebg-preview.png" }
+    { name: "Kurkure", price: 20, stock: 15, image: "public/Kurkure_140x150.png" },
+    { name: "Lays", price: 30, stock: 5, image:"public/Lays_150x122-removebg-preview_184x150.png"},
+    { name: "Munch", price: 10, stock: 20, image:"public/munch_140x150.png" },
+    { name: "Pepsi", price: 40, stock: 10, image:"public/pepsi_150x150.webp" },
+    { name: "Coke", price: 35, stock: 12, image:"public/coke_100x150-removebg-preview.png" },
+    { name: "Sprite", price: 25, stock: 8, image:"public/sprite_124x150-removebg-preview.png" },
+    { name: "Oreos", price: 50, stock: 12, image:"public/oreos_150x102-removebg-preview_221x150.png" },
+    { name: "Doritos", price: 45, stock: 7, image:"public/doritos_150x150-removebg-preview.png" },
+    { name: "Red Bull", price: 60, stock: 5, image:"public/redbull_150x150-removebg-preview.png" },
+    { name: "Snickers", price: 25, stock: 20, image:"public/snickers_107x150-removebg-preview.png" },
+    { name: "Gatorade", price: 35, stock: 10, image:"public/gatorade_150x150-removebg-preview.png" },
+    { name: "KitKat", price: 30, stock: 15, image:"public/kitkat_150x150-removebg-preview.png" }
   ]);
   
 
