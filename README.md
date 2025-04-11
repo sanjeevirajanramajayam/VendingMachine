@@ -1,8 +1,36 @@
-# React + Vite
+# 🛒 Vending Machine Simulation (React.js)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple **Vending Machine** simulation built with **React.js**. The app allows users to:
 
-Currently, two official plugins are available:
+- View a list of available products
+- Select a product to purchase
+- Simulate payment by inserting coins
+- Receive the selected product if the payment is correct
+- View a summary of the transaction (product selected, total amount inserted, etc.)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+
+### User Features:
+- View available products with names and prices
+- Select a product to purchase
+- Get the selected product if the payment is sufficient
+
+### General Features:
+- Simple, clean, and responsive UI using React components
+  
+## 📁 Tech Stack
+
+- React.js
+- React Hooks (useState, useEffect)
+- CSS (for styling the UI)
+
+## 💡 Purpose
+
+This project is a basic simulation of a vending machine built entirely with React.js to demonstrate state management, user interaction, and component-based architecture in React.
+
+## 🌱 How to Run
+
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
